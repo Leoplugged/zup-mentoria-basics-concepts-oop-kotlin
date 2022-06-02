@@ -1,5 +1,8 @@
+package br.com.catalisa.recap
+
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
+
 
 open class SmartDevice(val name: String, val category: String) {
 
